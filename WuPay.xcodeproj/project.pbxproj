@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30CA4A9C1C3F611E00B8C8B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA4A9B1C3F611E00B8C8B2 /* AppDelegate.swift */; };
+		30CA4A9E1C3F611E00B8C8B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA4A9D1C3F611E00B8C8B2 /* ViewController.swift */; };
+		30CA4AA11C3F611E00B8C8B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CA4A9F1C3F611E00B8C8B2 /* Main.storyboard */; };
+		30CA4AA31C3F611E00B8C8B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CA4AA21C3F611E00B8C8B2 /* Assets.xcassets */; };
+		30CA4AA61C3F611E00B8C8B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CA4AA41C3F611E00B8C8B2 /* LaunchScreen.storyboard */; };
+		30CA4AB11C3F611E00B8C8B2 /* WuPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA4AB01C3F611E00B8C8B2 /* WuPayTests.swift */; };
+		30CA4ABC1C3F611E00B8C8B2 /* WuPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA4ABB1C3F611E00B8C8B2 /* WuPayUITests.swift */; };
+		30CA4ACA1C3F669E00B8C8B2 /* QRController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA4AC91C3F669E00B8C8B2 /* QRController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30CA4AAD1C3F611E00B8C8B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30CA4A901C3F611E00B8C8B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30CA4A971C3F611E00B8C8B2;
+			remoteInfo = WuPay;
+		};
+		30CA4AB81C3F611E00B8C8B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30CA4A901C3F611E00B8C8B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30CA4A971C3F611E00B8C8B2;
+			remoteInfo = WuPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30CA4A981C3F611E00B8C8B2 /* WuPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WuPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CA4A9B1C3F611E00B8C8B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30CA4A9D1C3F611E00B8C8B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30CA4AA01C3F611E00B8C8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30CA4AA21C3F611E00B8C8B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30CA4AA51C3F611E00B8C8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30CA4AA71C3F611E00B8C8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CA4AAC1C3F611E00B8C8B2 /* WuPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WuPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CA4AB01C3F611E00B8C8B2 /* WuPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WuPayTests.swift; sourceTree = "<group>"; };
+		30CA4AB21C3F611E00B8C8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CA4AB71C3F611E00B8C8B2 /* WuPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WuPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CA4ABB1C3F611E00B8C8B2 /* WuPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WuPayUITests.swift; sourceTree = "<group>"; };
+		30CA4ABD1C3F611E00B8C8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CA4AC91C3F669E00B8C8B2 /* QRController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30CA4A951C3F611E00B8C8B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CA4AA91C3F611E00B8C8B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CA4AB41C3F611E00B8C8B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30CA4A8F1C3F611E00B8C8B2 = {
+			isa = PBXGroup;
+			children = (
+				30CA4A9A1C3F611E00B8C8B2 /* WuPay */,
+				30CA4AAF1C3F611E00B8C8B2 /* WuPayTests */,
+				30CA4ABA1C3F611E00B8C8B2 /* WuPayUITests */,
+				30CA4A991C3F611E00B8C8B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30CA4A991C3F611E00B8C8B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30CA4A981C3F611E00B8C8B2 /* WuPay.app */,
+				30CA4AAC1C3F611E00B8C8B2 /* WuPayTests.xctest */,
+				30CA4AB71C3F611E00B8C8B2 /* WuPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30CA4A9A1C3F611E00B8C8B2 /* WuPay */ = {
+			isa = PBXGroup;
+			children = (
+				30CA4A9B1C3F611E00B8C8B2 /* AppDelegate.swift */,
+				30CA4A9D1C3F611E00B8C8B2 /* ViewController.swift */,
+				30CA4A9F1C3F611E00B8C8B2 /* Main.storyboard */,
+				30CA4AA21C3F611E00B8C8B2 /* Assets.xcassets */,
+				30CA4AA41C3F611E00B8C8B2 /* LaunchScreen.storyboard */,
+				30CA4AA71C3F611E00B8C8B2 /* Info.plist */,
+				30CA4AC91C3F669E00B8C8B2 /* QRController.swift */,
+			);
+			path = WuPay;
+			sourceTree = "<group>";
+		};
+		30CA4AAF1C3F611E00B8C8B2 /* WuPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				30CA4AB01C3F611E00B8C8B2 /* WuPayTests.swift */,
+				30CA4AB21C3F611E00B8C8B2 /* Info.plist */,
+			);
+			path = WuPayTests;
+			sourceTree = "<group>";
+		};
+		30CA4ABA1C3F611E00B8C8B2 /* WuPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30CA4ABB1C3F611E00B8C8B2 /* WuPayUITests.swift */,
+				30CA4ABD1C3F611E00B8C8B2 /* Info.plist */,
+			);
+			path = WuPayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30CA4A971C3F611E00B8C8B2 /* WuPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CA4AC01C3F611E00B8C8B2 /* Build configuration list for PBXNativeTarget "WuPay" */;
+			buildPhases = (
+				30CA4A941C3F611E00B8C8B2 /* Sources */,
+				30CA4A951C3F611E00B8C8B2 /* Frameworks */,
+				30CA4A961C3F611E00B8C8B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WuPay;
+			productName = WuPay;
+			productReference = 30CA4A981C3F611E00B8C8B2 /* WuPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30CA4AAB1C3F611E00B8C8B2 /* WuPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CA4AC31C3F611E00B8C8B2 /* Build configuration list for PBXNativeTarget "WuPayTests" */;
+			buildPhases = (
+				30CA4AA81C3F611E00B8C8B2 /* Sources */,
+				30CA4AA91C3F611E00B8C8B2 /* Frameworks */,
+				30CA4AAA1C3F611E00B8C8B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30CA4AAE1C3F611E00B8C8B2 /* PBXTargetDependency */,
+			);
+			name = WuPayTests;
+			productName = WuPayTests;
+			productReference = 30CA4AAC1C3F611E00B8C8B2 /* WuPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30CA4AB61C3F611E00B8C8B2 /* WuPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CA4AC61C3F611E00B8C8B2 /* Build configuration list for PBXNativeTarget "WuPayUITests" */;
+			buildPhases = (
+				30CA4AB31C3F611E00B8C8B2 /* Sources */,
+				30CA4AB41C3F611E00B8C8B2 /* Frameworks */,
+				30CA4AB51C3F611E00B8C8B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30CA4AB91C3F611E00B8C8B2 /* PBXTargetDependency */,
+			);
+			name = WuPayUITests;
+			productName = WuPayUITests;
+			productReference = 30CA4AB71C3F611E00B8C8B2 /* WuPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30CA4A901C3F611E00B8C8B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yuehao Wu";
+				TargetAttributes = {
+					30CA4A971C3F611E00B8C8B2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					30CA4AAB1C3F611E00B8C8B2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 30CA4A971C3F611E00B8C8B2;
+					};
+					30CA4AB61C3F611E00B8C8B2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 30CA4A971C3F611E00B8C8B2;
+					};
+				};
+			};
+			buildConfigurationList = 30CA4A931C3F611E00B8C8B2 /* Build configuration list for PBXProject "WuPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30CA4A8F1C3F611E00B8C8B2;
+			productRefGroup = 30CA4A991C3F611E00B8C8B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30CA4A971C3F611E00B8C8B2 /* WuPay */,
+				30CA4AAB1C3F611E00B8C8B2 /* WuPayTests */,
+				30CA4AB61C3F611E00B8C8B2 /* WuPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30CA4A961C3F611E00B8C8B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CA4AA61C3F611E00B8C8B2 /* LaunchScreen.storyboard in Resources */,
+				30CA4AA31C3F611E00B8C8B2 /* Assets.xcassets in Resources */,
+				30CA4AA11C3F611E00B8C8B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CA4AAA1C3F611E00B8C8B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CA4AB51C3F611E00B8C8B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30CA4A941C3F611E00B8C8B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CA4ACA1C3F669E00B8C8B2 /* QRController.swift in Sources */,
+				30CA4A9E1C3F611E00B8C8B2 /* ViewController.swift in Sources */,
+				30CA4A9C1C3F611E00B8C8B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CA4AA81C3F611E00B8C8B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CA4AB11C3F611E00B8C8B2 /* WuPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CA4AB31C3F611E00B8C8B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CA4ABC1C3F611E00B8C8B2 /* WuPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30CA4AAE1C3F611E00B8C8B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30CA4A971C3F611E00B8C8B2 /* WuPay */;
+			targetProxy = 30CA4AAD1C3F611E00B8C8B2 /* PBXContainerItemProxy */;
+		};
+		30CA4AB91C3F611E00B8C8B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30CA4A971C3F611E00B8C8B2 /* WuPay */;
+			targetProxy = 30CA4AB81C3F611E00B8C8B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30CA4A9F1C3F611E00B8C8B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CA4AA01C3F611E00B8C8B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30CA4AA41C3F611E00B8C8B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CA4AA51C3F611E00B8C8B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30CA4ABE1C3F611E00B8C8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30CA4ABF1C3F611E00B8C8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30CA4AC11C3F611E00B8C8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WuPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tonywu.WuPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30CA4AC21C3F611E00B8C8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WuPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tonywu.WuPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30CA4AC41C3F611E00B8C8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WuPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tonywu.WuPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WuPay.app/WuPay";
+			};
+			name = Debug;
+		};
+		30CA4AC51C3F611E00B8C8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WuPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tonywu.WuPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WuPay.app/WuPay";
+			};
+			name = Release;
+		};
+		30CA4AC71C3F611E00B8C8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WuPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tonywu.WuPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WuPay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		30CA4AC81C3F611E00B8C8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WuPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tonywu.WuPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WuPay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30CA4A931C3F611E00B8C8B2 /* Build configuration list for PBXProject "WuPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CA4ABE1C3F611E00B8C8B2 /* Debug */,
+				30CA4ABF1C3F611E00B8C8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CA4AC01C3F611E00B8C8B2 /* Build configuration list for PBXNativeTarget "WuPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CA4AC11C3F611E00B8C8B2 /* Debug */,
+				30CA4AC21C3F611E00B8C8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30CA4AC31C3F611E00B8C8B2 /* Build configuration list for PBXNativeTarget "WuPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CA4AC41C3F611E00B8C8B2 /* Debug */,
+				30CA4AC51C3F611E00B8C8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30CA4AC61C3F611E00B8C8B2 /* Build configuration list for PBXNativeTarget "WuPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CA4AC71C3F611E00B8C8B2 /* Debug */,
+				30CA4AC81C3F611E00B8C8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30CA4A901C3F611E00B8C8B2 /* Project object */;
+}
