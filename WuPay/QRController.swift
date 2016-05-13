@@ -106,7 +106,7 @@ class QRController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, UI
                 messageLabel.text = metadataObj.stringValue
                 super.viewDidLoad()
                 let webV:UIWebView = UIWebView(frame: CGRectMake(0, 0, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height))
-                
+                print(metadataObj.stringValue)
                 webV.loadRequest(NSURLRequest(URL: NSURL(string: metadataObj.stringValue)!))
                 webV.delegate = self;
                 self.view.addSubview(webV)}
